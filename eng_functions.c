@@ -131,14 +131,14 @@ char *get_datas(const int beginingstr_num, const int data_pos, const char *fileb
     return buffer;
 }
 
-char *file_name_forming(const char *filebuf,field_descr_t *file_date_pos,
-    char *o_file_name)
-{
-    char file_date[file_date_pos->length+1];
-    read_word_from_file_buf(0, file_date_pos->position, file_date_pos->length,
-        filebuf, file_date);
+// char *file_name_forming(const char *filebuf,field_descr_t *file_date_pos,
+//     char *o_file_name)
+// {
+//     char file_date[file_date_pos->length+1];
+//     read_word_from_file_buf(0, file_date_pos->position, file_date_pos->length,
+//         filebuf, file_date);
     
-}
+// }
 // void test(char *filebuf)
 // {
 //     printf("%s\n", get_leg_data(&id_data,filebuf, 7));
