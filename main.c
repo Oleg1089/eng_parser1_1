@@ -18,7 +18,7 @@ int main (int argc, char *argv[])
     char data_buffer[SIZE_OF_STR_IN_FILE];
     char bort_id_buf[8];/* Буфер для идентификатора борта */
     field_descr_t id_bort_pos={43, 7};
-    field_descr_t file_date_pos={64, 7};
+    // field_descr_t file_date_pos={64, 7};
     int num_first_datas_str=7;/* Номер первой строки данных */
     int current_str=7;
     int current_leg=0;
