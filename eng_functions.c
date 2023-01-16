@@ -194,10 +194,3 @@ char *full_file_name_form(const char *full_path, const char *ddMMMyy_date, const
     strcpy(file_name+file_name_len-3, suffix);
     return strcat(full_path_buf, file_name);
 }
-// void test(char *filebuf)
-// {
-//     printf("%s\n", get_leg_data(&id_data,filebuf, 7));
-//     printf("%s\n", get_id_data(0, &id_bort_pos, filebuf, bort_id_buf));
-//     printf("%s\n", get_datas(7, DATA_POSITION_1, filebuf, data_buffer));
-//     printf("%s\n", get_datas(7, DATA_POSITION_2, filebuf, data_buffer));
-// }
