@@ -4,7 +4,7 @@
             "name": "C/C++: gcc сборка и отладка активного файла",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/engparcer",
+            "program": "${fileDirname}/engparser",
             "args": ["RA672307.ENG"],
             "stopAtEntry": true,
             "cwd": "${fileDirname}",
