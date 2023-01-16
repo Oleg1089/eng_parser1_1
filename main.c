@@ -43,7 +43,7 @@ if (argc<2){
     qnt_legs_in_file=
         (sizeof_file(fd_input)/SIZE_OF_STR_IN_FILE-num_first_datas_str)/
         QNT_OF_LEG_STR;
-    get_bort_id(0, &id_bort_pos, i_filebufptr, bort_id_buf);
+    get_id_data(0, &id_bort_pos, i_filebufptr, bort_id_buf);
     o_filebufptr=pos_in_o_file_buf=malloc(SIZE_OF_OUTPUT_BUF);
 
     /* Основной цикл обработки */
@@ -76,8 +76,13 @@ if (argc<2){
         current_str+=QNT_OF_LEG_STR;
         current_leg++;
     }
-        fd_output=fopen("test.csv", "wb");
-        fwrite(o_filebufptr, 1, pos_in_o_file_buf-o_filebufptr, fd_output);
+
+    char datebuf[10];
+    char *file_name=full_file_name_form(argv[1],
+        get_id_data(0, &file_date_pos, i_filebufptr, datebuf), "CSV");
+
+    fd_output=fopen(file_name, "wb");
+    fwrite(o_filebufptr, 1, pos_in_o_file_buf-o_filebufptr, fd_output);
     printf("%2i:\tПолетов обработано.\n", current_leg);
 
 /*Приборка мусора за собой*/
