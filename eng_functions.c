@@ -8,6 +8,12 @@
 
 #include "eng_globalconfig.h"
 
+static char *month_names[]={
+    "JAN", "FEB", "MAR",
+    "APR", "MAY", "JUN",
+    "JUL", "AUG", "SEP",
+    "OCT", "NOV", "DEC"
+};
 
 off_t sizeof_file(FILE *fd_)
 {
@@ -87,10 +93,10 @@ char *get_leg_data(const id_data_t *id_data, const char *file_buf,
     return leg_data;
 }
 
-char *get_bort_id(const int str_num, const field_descr_t *id_bort,
+char *get_id_data(const int str_num, const field_descr_t *id_data,
     const char *file_buf, char *buffer)
 {
-    return read_word_from_file_buf(str_num, id_bort->position, id_bort->length,
+    return read_word_from_file_buf(str_num, id_data->position, id_data->length,
         file_buf, buffer);
 }
 
@@ -131,18 +137,67 @@ char *get_datas(const int beginingstr_num, const int data_pos, const char *fileb
     return buffer;
 }
 
-char *file_name_forming(const char *filebuf,field_descr_t *file_date_pos,
-    char *o_file_name)
+char* substr(const char* s, size_t pos, size_t count)
 {
-    char file_date[file_date_pos->length+1];
-    read_word_from_file_buf(0, file_date_pos->position, file_date_pos->length,
-        filebuf, file_date);
-    
+   static char buf[BUFSIZ];
+   if ( count >= BUFSIZ )
+      return NULL;
+   else
+   buf[count] = '\0';
+      return strncpy(buf, s + pos, count);
+}
+
+char *convertdate_to_yy_mm_dd(const char *ddMMMyy, char * yy_mm_dd)
+{
+    int i=0;
+    strcpy(yy_mm_dd, substr(ddMMMyy, 5, 2));
+    strcat(yy_mm_dd, "_");
+    char *subbuf=substr(ddMMMyy, 2, 3);
+    while (*subbuf != *month_names[i]) {i++;}
+    i++;
+    if (i<10) {
+        i+='0';
+        strcat(yy_mm_dd, "0");
+        strcat(yy_mm_dd, (char *)&i);
+    } else {
+        i-=10; i+='0';
+        strcat(yy_mm_dd, "1");
+        strcat(yy_mm_dd, (char *)&i);
+    }
+    strcat(yy_mm_dd, "_");
+    return strcat(yy_mm_dd,substr(ddMMMyy, 0, 2));
+}
+
+char *find_file_name(const char *full_path)
+{
+    static char outbuf[BUFSIZ];
+    char *curcharptr, *charptr=NULL;
+    strcpy(outbuf, full_path);
+    curcharptr=strtok(outbuf, "/\\");
+    while (curcharptr != NULL) {
+        charptr=curcharptr;
+        curcharptr=strtok(NULL, "\\");
+    }
+    return charptr;
+}
+
+char *full_file_name_form(const char *full_path, const char *ddMMMyy_date, const char *suffix)
+{
+    static char full_path_buf[BUFSIZ];
+    size_t path_str_len, file_name_len;
+    char *file_name=find_file_name(full_path);
+    file_name_len=strlen(file_name);
+    path_str_len=strlen(full_path)-file_name_len;
+    strncpy(full_path_buf, full_path, path_str_len);
+    convertdate_to_yy_mm_dd(ddMMMyy_date, &full_path_buf[path_str_len]);
+    strcat(full_path_buf, "_");
+    strcpy(file_name+file_name_len-3, suffix);
+    return strcat(full_path_buf, file_name);
 }
 // void test(char *filebuf)
 // {
 //     printf("%s\n", get_leg_data(&id_data,filebuf, 7));
-//     printf("%s\n", get_bort_id(0, &id_bort_pos, filebuf, bort_id_buf));
+//     printf("%s\n", get_id_data(0, &id_bort_pos, filebuf, bort_id_buf));
 //     printf("%s\n", get_datas(7, DATA_POSITION_1, filebuf, data_buffer));
 //     printf("%s\n", get_datas(7, DATA_POSITION_2, filebuf, data_buffer));
 // }
