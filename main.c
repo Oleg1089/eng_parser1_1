@@ -82,7 +82,7 @@ if (argc<2){
     char datebuf[10], legbuf[10];
     char *file_name=full_file_name_form(argv[1],
         get_id_data(0, &file_date_pos, i_filebufptr, datebuf),
-        get_last_leg(1, "Legs", &cmp_word_pos, i_filebufptr, legbuf), "CSV");
+        get_last_leg(1, "LEGS", &cmp_word_pos, i_filebufptr, legbuf), "CSV");
 
     fd_output=fopen(file_name, "wb");
     fwrite(o_filebufptr, 1, pos_in_o_file_buf-o_filebufptr, fd_output);

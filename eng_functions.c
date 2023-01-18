@@ -205,7 +205,7 @@ char *get_last_leg(const int str_num, const char *cmp_word,
 {
     get_id_data(str_num, cmp_word_pos, filebuf, last_leg_buf);
     field_descr_t *last_leg_pos;
-    if (!strcmp(cmp_word, last_leg_buf)){
+    if (strcmp(cmp_word, last_leg_buf)){
         last_leg_pos=&last_leg_pos1;
     }
     else {
