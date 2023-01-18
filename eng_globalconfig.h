@@ -11,6 +11,7 @@
 #define LEG_DATA_FIELD_SIZE 4
 #define ENVIR_DATA_FIELD_SIZE 5
 
+
 #include <stdio.h>
 
 typedef struct field_descr {
@@ -19,6 +20,8 @@ typedef struct field_descr {
 } field_descr_t;
 extern field_descr_t id_bort_pos;
 extern field_descr_t file_date_pos;
+// extern field_descr_t last_leg_pos1;
+// extern field_descr_t last_leg_pos2;
 
 typedef struct id_data
 {

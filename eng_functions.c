@@ -23,6 +23,8 @@ off_t sizeof_file(FILE *fd_)
     return st_f.st_size;
 }
 
+field_descr_t last_leg_pos1={42, 5};
+field_descr_t last_leg_pos2={61, 5};
 
 void *readfile_in_buf(FILE *fd_)
 {
@@ -181,7 +183,8 @@ char *find_file_name(const char *full_path)
     return charptr;
 }
 
-char *full_file_name_form(const char *full_path, const char *ddMMMyy_date, const char *suffix)
+char *full_file_name_form(const char *full_path, const char *ddMMMyy_date,
+    const char *leg_id, const char *suffix)
 {
     static char full_path_buf[BUFSIZ];
     size_t path_str_len, file_name_len;
@@ -191,6 +194,22 @@ char *full_file_name_form(const char *full_path, const char *ddMMMyy_date, const
     strncpy(full_path_buf, full_path, path_str_len);
     convertdate_to_yy_mm_dd(ddMMMyy_date, &full_path_buf[path_str_len]);
     strcat(full_path_buf, "_");
+    strcat(full_path_buf, leg_id);
+    strcat(full_path_buf, "_");
     strcpy(file_name+file_name_len-3, suffix);
     return strcat(full_path_buf, file_name);
+}
+
+char *get_last_leg(const int str_num, const char *cmp_word,
+    const field_descr_t *cmp_word_pos, const char *filebuf, char *last_leg_buf)
+{
+    get_id_data(str_num, cmp_word_pos, filebuf, last_leg_buf);
+    field_descr_t *last_leg_pos;
+    if (!strcmp(cmp_word, last_leg_buf)){
+        last_leg_pos=&last_leg_pos1;
+    }
+    else {
+        last_leg_pos=&last_leg_pos2;
+    }
+        return get_id_data(str_num, last_leg_pos, filebuf, last_leg_buf);
 }

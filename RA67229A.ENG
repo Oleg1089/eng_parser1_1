@@ -1,0 +1,707 @@
+         ENGINE TREND                      RA67229A.ENG  21:03  05OCT20         
+      WRITE OPTION:  LEGS NOT PREVIOUSLY WRITTEN THROUGH LEG 07881              
+  MDC ASSEMBLY CPN:  622-9818-020            DISKETTE CPN:  831-0546-026        
+A/C STRAPPING CODE:  0110  RJ100        MDC SOFTWARE VERS:  016   11OCT00       
+                                                                                
+ LEG  TIME   DATE             PARAMETER         L ENG   R ENG   OTHER           
+----- ----- -------      -------------------    ------  ------  ------          
+07881 05:53 05OCT20      N1              %        87.8    88.0                  
+                         N2              %        92.0    93.5                  
+                         ITT             C         790     823                  
+                         VIBRATION       MIL       0.3     1.0                  
+                         OIL PRESSURE    PSI        79      78                  
+                         OIL TEMP        C          82      83                  
+                         FUEL FLOW       PPH      3216    3120                  
+                         ENG OPER TIME   SEC      3214    3214                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      172.2          
+                         PRESSURE ALT    FT                        104          
+                         TAT             C                        16.8          
+07880 03:49 05OCT20      N1              %        88.9    88.5                  
+                         N2              %        92.1    93.3                  
+                         ITT             C         802     824                  
+                         VIBRATION       MIL       0.3     1.1                  
+                         OIL PRESSURE    PSI        87      86                  
+                         OIL TEMP        C          67      69                  
+                         FUEL FLOW       PPH      3320    3244                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      184.9          
+                         PRESSURE ALT    FT                        100          
+                         TAT             C                        15.2          
+07879 18:57 04OCT20      N1              %        91.5    88.3                  
+                         N2              %        93.7    93.7                  
+                         ITT             C         836     830                  
+                         VIBRATION       MIL       0.3     1.0                  
+                         OIL PRESSURE    PSI        79      77                  
+                         OIL TEMP        C          85      86                  
+                         FUEL FLOW       PPH      3552    3180                  
+                         ENG OPER TIME   SEC      2587    2587                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      184.9          
+                         PRESSURE ALT    FT                        328          
+                         TAT             C                        18.8          
+07878 17:05 04OCT20      N1              %        89.9    89.3                  
+                         N2              %        92.8    94.0                  
+                         ITT             C         813     835                  
+                         VIBRATION       MIL       0.3     1.0                  
+                         OIL PRESSURE    PSI        80      80                  
+                         OIL TEMP        C          79      79                  
+                         FUEL FLOW       PPH      3396    3340                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      178.8          
+                         PRESSURE ALT    FT                         36          
+                         TAT             C                        16.7          
+07877 10:47 04OCT20      N1              %        89.0    88.5                  
+                         N2              %        93.4    94.4                  
+                         ITT             C         811     836                  
+                         VIBRATION       MIL       0.4     1.3                  
+                         OIL PRESSURE    PSI        77      75                  
+                         OIL TEMP        C          92      93                  
+                         FUEL FLOW       PPH      3132    3012                  
+                         ENG OPER TIME   SEC      8668    8668                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      186.0          
+                         PRESSURE ALT    FT                        924          
+                         TAT             C                        24.7          
+07876 07:28 04OCT20      N1              %        87.2    87.4                  
+                         N2              %        91.5    93.0                  
+                         ITT             C         780     813                  
+                         VIBRATION       MIL       0.1     1.1                  
+                         OIL PRESSURE    PSI        83      83                  
+                         OIL TEMP        C          73      71                  
+                         FUEL FLOW       PPH      3092    3128                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      185.5          
+                         PRESSURE ALT    FT                        -44          
+                         TAT             C                        15.3          
+07875 18:14 03OCT20      N1              %        89.6    89.5                  
+                         N2              %        92.7    94.1                  
+                         ITT             C         810     838                  
+                         VIBRATION       MIL       0.2     1.4                  
+                         OIL PRESSURE    PSI        80      79                  
+                         OIL TEMP        C          82      84                  
+                         FUEL FLOW       PPH      3348    3268                  
+                         ENG OPER TIME   SEC      6219    6219                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      183.8          
+                         PRESSURE ALT    FT                        320          
+                         TAT             C                        17.1          
+07874 15:44 03OCT20      N1              %        89.3    89.0                  
+                         N2              %        91.5    92.7                  
+                         ITT             C         784     808                  
+                         VIBRATION       MIL       0.4     1.1                  
+                         OIL PRESSURE    PSI        82      79                  
+                         OIL TEMP        C          75      76                  
+                         FUEL FLOW       PPH      3376    3388                  
+                         ENG OPER TIME   SEC      6149    6149                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      181.0          
+                         PRESSURE ALT    FT                          4          
+                         TAT             C                         5.8          
+07873 13:26 03OCT20      N1              %        90.1    89.9                  
+                         N2              %        93.3    94.6                  
+                         ITT             C         822     850                  
+                         VIBRATION       MIL       0.2     1.3                  
+                         OIL PRESSURE    PSI        80      78                  
+                         OIL TEMP        C          85      87                  
+                         FUEL FLOW       PPH      3376    3312                  
+                         ENG OPER TIME   SEC      7106    7106                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      183.2          
+                         PRESSURE ALT    FT                        328          
+                         TAT             C                        21.5          
+07872 10:13 03OCT20      N1              %        89.6    90.0                  
+                         N2              %        92.0    93.7                  
+                         ITT             C         794     826                  
+                         VIBRATION       MIL       0.4     1.1                  
+                         OIL PRESSURE    PSI        82      82                  
+                         OIL TEMP        C          77      77                  
+                         FUEL FLOW       PPH      3428    3376                  
+                         ENG OPER TIME   SEC      6943    6943                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      181.2          
+                         PRESSURE ALT    FT                         84          
+                         TAT             C                        10.0          
+07871 07:36 03OCT20      N1              %        90.3    90.1                  
+                         N2              %        93.0    94.3                  
+                         ITT             C         812     840                  
+                         VIBRATION       MIL       0.3     1.2                  
+                         OIL PRESSURE    PSI        76      75                  
+                         OIL TEMP        C          89      90                  
+                         FUEL FLOW       PPH      3416    3320                  
+                         ENG OPER TIME   SEC      2764    2764                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      188.7          
+                         PRESSURE ALT    FT                        276          
+                         TAT             C                        17.3          
+07870 05:39 03OCT20      N1              %        88.1    88.0                  
+                         N2              %        91.4    92.7                  
+                         ITT             C         783     813                  
+                         VIBRATION       MIL       0.4     1.0                  
+                         OIL PRESSURE    PSI        87      85                  
+                         OIL TEMP        C          67      67                  
+                         FUEL FLOW       PPH      3288    3192                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      182.5          
+                         PRESSURE ALT    FT                         24          
+                         TAT             C                        10.3          
+07869 17:47 02OCT20      N1              %        86.1    86.2                  
+                         N2              %        90.7    92.1                  
+                         ITT             C         758     787                  
+                         VIBRATION       MIL       0.2     1.1                  
+                         OIL PRESSURE    PSI        77      76                  
+                         OIL TEMP        C          81      82                  
+                         FUEL FLOW       PPH      3080    3072                  
+                         ENG OPER TIME   SEC      3956    3956                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      181.2          
+                         PRESSURE ALT    FT                       -208          
+                         TAT             C                        10.5          
+07868 15:46 02OCT20      N1              %        85.7    86.2                  
+                         N2              %        90.8    92.4                  
+                         ITT             C         757     794                  
+                         VIBRATION       MIL       0.3     1.1                  
+                         OIL PRESSURE    PSI        77      77                  
+                         OIL TEMP        C          81      81                  
+                         FUEL FLOW       PPH      3068    3084                  
+                         ENG OPER TIME   SEC      3707    3707                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      176.0          
+                         PRESSURE ALT    FT                       -332          
+                         TAT             C                        12.5          
+07867 13:58 02OCT20      N1              %        86.9    86.5                  
+                         N2              %        91.3    92.3                  
+                         ITT             C         769     793                  
+                         VIBRATION       MIL       0.2     0.9                  
+                         OIL PRESSURE    PSI        81      77                  
+                         OIL TEMP        C          79      80                  
+                         FUEL FLOW       PPH      3152    3056                  
+                         ENG OPER TIME   SEC      6098    6098                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      178.2          
+                         PRESSURE ALT    FT                       -184          
+                         TAT             C                        11.5          
+07866 11:28 02OCT20      N1              %        87.9    87.9                  
+                         N2              %        92.5    93.7                  
+                         ITT             C         795     827                  
+                         VIBRATION       MIL       0.1     1.2                  
+                         OIL PRESSURE    PSI        80      79                  
+                         OIL TEMP        C          80      82                  
+                         FUEL FLOW       PPH      3152    3160                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      177.5          
+                         PRESSURE ALT    FT                         84          
+                         TAT             C                        20.3          
+07865 06:16 02OCT20      N1              %        89.3    89.7                  
+                         N2              %        92.2    93.7                  
+                         ITT             C         801     834                  
+                         VIBRATION       MIL       0.3     1.1                  
+                         OIL PRESSURE    PSI        79      79                  
+                         OIL TEMP        C          82      83                  
+                         FUEL FLOW       PPH      3308    3328                  
+                         ENG OPER TIME   SEC      2621    2621                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      175.7          
+                         PRESSURE ALT    FT                        432          
+                         TAT             C                        13.9          
+07864 04:30 02OCT20      N1              %        87.5    87.6                  
+                         N2              %        91.0    92.5                  
+                         ITT             C         778     807                  
+                         VIBRATION       MIL       0.3     1.0                  
+                         OIL PRESSURE    PSI        86      83                  
+                         OIL TEMP        C          68      67                  
+                         FUEL FLOW       PPH      3176    3172                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      177.1          
+                         PRESSURE ALT    FT                        144          
+                         TAT             C                         9.4          
+07863 18:14 01OCT20      N1              %        86.7    87.2                  
+                         N2              %        91.4    92.9                  
+                         ITT             C         771     806                  
+                         VIBRATION       MIL       0.3     1.1                  
+                         OIL PRESSURE    PSI        78      77                  
+                         OIL TEMP        C          84      85                  
+                         FUEL FLOW       PPH      3112    3064                  
+                         ENG OPER TIME   SEC      3122    3122                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      177.9          
+                         PRESSURE ALT    FT                        -40          
+                         TAT             C                        15.2          
+07862 16:18 01OCT20      N1              %        87.1    87.3                  
+                         N2              %        91.9    93.2                  
+                         ITT             C         784     812                  
+                         VIBRATION       MIL       0.3     1.2                  
+                         OIL PRESSURE    PSI        81      79                  
+                         OIL TEMP        C          79      80                  
+                         FUEL FLOW       PPH      3124    3092                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      172.6          
+                         PRESSURE ALT    FT                        152          
+                         TAT             C                        17.0          
+07861 11:22 01OCT20      N1              %        88.3    88.1                  
+                         N2              %        92.8    94.0                  
+                         ITT             C         803     830                  
+                         VIBRATION       MIL       0.2     1.2                  
+                         OIL PRESSURE    PSI        81      80                  
+                         OIL TEMP        C          84      85                  
+                         FUEL FLOW       PPH      3216    3124                  
+                         ENG OPER TIME   SEC      6950    6950                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      169.6          
+                         PRESSURE ALT    FT                        420          
+                         TAT             C                        21.3          
+07860 08:45 01OCT20      N1              %        89.2    89.0                  
+                         N2              %        92.0    93.3                  
+                         ITT             C         790     815                  
+                         VIBRATION       MIL       0.3     1.1                  
+                         OIL PRESSURE    PSI        78      76                  
+                         OIL TEMP        C          82      82                  
+                         FUEL FLOW       PPH      3312    3232                  
+                         ENG OPER TIME   SEC     10956   10956                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      184.3          
+                         PRESSURE ALT    FT                        384          
+                         TAT             C                        10.1          
+07859 05:05 01OCT20      N1              %        90.0    89.2                  
+                         N2              %        92.6    93.5                  
+                         ITT             C         807     827                  
+                         VIBRATION       MIL       0.1     1.2                  
+                         OIL PRESSURE    PSI        80      74                  
+                         OIL TEMP        C          84      86                  
+                         FUEL FLOW       PPH      3416    3256                  
+                         ENG OPER TIME   SEC      2864    2864                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      187.5          
+                         PRESSURE ALT    FT                        392          
+                         TAT             C                        13.6          
+07858 03:05 01OCT20      N1              %        87.8    87.8                  
+                         N2              %        91.1    92.6                  
+                         ITT             C         781     809                  
+                         VIBRATION       MIL       0.4     0.8                  
+                         OIL PRESSURE    PSI        84      81                  
+                         OIL TEMP        C          70      71                  
+                         FUEL FLOW       PPH      3216    3168                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      185.7          
+                         PRESSURE ALT    FT                        176          
+                         TAT             C                         9.8          
+07857 19:03 29SEP20      N1              %        88.8    88.2                  
+                         N2              %        92.5    93.4                  
+                         ITT             C         801     827                  
+                         VIBRATION       MIL       0.2     1.1                  
+                         OIL PRESSURE    PSI        82      77                  
+                         OIL TEMP        C          82      85                  
+                         FUEL FLOW       PPH      3212    3132                  
+                         ENG OPER TIME   SEC      2896    2896                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      180.0          
+                         PRESSURE ALT    FT                        484          
+                         TAT             C                        16.1          
+07856 17:04 29SEP20      N1              %        89.3    88.7                  
+                         N2              %        92.4    93.4                  
+                         ITT             C         803     829                  
+                         VIBRATION       MIL       0.2     0.9                  
+                         OIL PRESSURE    PSI        83      81                  
+                         OIL TEMP        C          74      76                  
+                         FUEL FLOW       PPH      3272    3232                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      179.3          
+                         PRESSURE ALT    FT                        244          
+                         TAT             C                        14.0          
+07855 10:48 29SEP20      N1              %        90.0    90.2                  
+                         N2              %        93.1    94.6                  
+                         ITT             C         821     856                  
+                         VIBRATION       MIL       0.3     1.4                  
+                         OIL PRESSURE    PSI        78      78                  
+                         OIL TEMP        C          88      89                  
+                         FUEL FLOW       PPH      3376    3356                  
+                         ENG OPER TIME   SEC      7257    7257                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      179.0          
+                         PRESSURE ALT    FT                        424          
+                         TAT             C                        19.8          
+07854 07:45 29SEP20      N1              %        89.3    88.5                  
+                         N2              %        92.0    93.0                  
+                         ITT             C         795     816                  
+                         VIBRATION       MIL       0.4     1.1                  
+                         OIL PRESSURE    PSI        81      81                  
+                         OIL TEMP        C          77      77                  
+                         FUEL FLOW       PPH      3324    3212                  
+                         ENG OPER TIME   SEC      7212    7212                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      183.8          
+                         PRESSURE ALT    FT                        388          
+                         TAT             C                        10.9          
+07853 04:52 29SEP20      N1              %        89.3    89.3                  
+                         N2              %        92.5    93.9                  
+                         ITT             C         801     836                  
+                         VIBRATION       MIL       0.4     1.3                  
+                         OIL PRESSURE    PSI        78      77                  
+                         OIL TEMP        C          84      85                  
+                         FUEL FLOW       PPH      3284    3276                  
+                         ENG OPER TIME   SEC      3104    3104                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      184.0          
+                         PRESSURE ALT    FT                        404          
+                         TAT             C                        15.5          
+07852 03:04 29SEP20      N1              %        89.2    89.0                  
+                         N2              %        92.1    93.4                  
+                         ITT             C         805     836                  
+                         VIBRATION       MIL       0.3     1.1                  
+                         OIL PRESSURE    PSI        87      84                  
+                         OIL TEMP        C          68      70                  
+                         FUEL FLOW       PPH      3336    3324                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      180.6          
+                         PRESSURE ALT    FT                        248          
+                         TAT             C                        14.7          
+07851 18:56 28SEP20      N1              %        89.8    89.3                  
+                         N2              %        92.5    93.9                  
+                         ITT             C         808     838                  
+                         VIBRATION       MIL       0.2     1.2                  
+                         OIL PRESSURE    PSI        80      76                  
+                         OIL TEMP        C          83      86                  
+                         FUEL FLOW       PPH      3360    3308                  
+                         ENG OPER TIME   SEC      3114    3114                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      182.8          
+                         PRESSURE ALT    FT                        400          
+                         TAT             C                        15.2          
+07850 17:05 28SEP20      N1              %        89.0    88.6                  
+                         N2              %        92.5    93.6                  
+                         ITT             C         807     838                  
+                         VIBRATION       MIL       0.5     1.3                  
+                         OIL PRESSURE    PSI        86      83                  
+                         OIL TEMP        C          70      73                  
+                         FUEL FLOW       PPH      3288    3300                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      183.8          
+                         PRESSURE ALT    FT                        116          
+                         TAT             C                        16.5          
+07849 05:57 28SEP20      N1              %        89.6    89.3                  
+                         N2              %        92.3    93.6                  
+                         ITT             C         805     831                  
+                         VIBRATION       MIL       0.2     1.2                  
+                         OIL PRESSURE    PSI        80      77                  
+                         OIL TEMP        C          82      83                  
+                         FUEL FLOW       PPH      3380    3376                  
+                         ENG OPER TIME   SEC      3170    3170                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      177.0          
+                         PRESSURE ALT    FT                        116          
+                         TAT             C                        12.5          
+07848 03:50 28SEP20      N1              %        87.2    87.2                  
+                         N2              %        90.9    92.2                  
+                         ITT             C         776     807                  
+                         VIBRATION       MIL       0.3     1.1                  
+                         OIL PRESSURE    PSI        85      85                  
+                         OIL TEMP        C          68      66                  
+                         FUEL FLOW       PPH      3132    3064                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      176.4          
+                         PRESSURE ALT    FT                        164          
+                         TAT             C                         9.1          
+07847 18:55 27SEP20      N1              %        88.9    89.0                  
+                         N2              %        92.5    93.9                  
+                         ITT             C         803     841                  
+                         VIBRATION       MIL       0.2     1.1                  
+                         OIL PRESSURE    PSI        80      77                  
+                         OIL TEMP        C          86      87                  
+                         FUEL FLOW       PPH      3288    3288                  
+                         ENG OPER TIME   SEC      3097    3097                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      180.1          
+                         PRESSURE ALT    FT                        452          
+                         TAT             C                        17.1          
+07846 17:03 27SEP20      N1              %        88.0    87.9                  
+                         N2              %        92.1    93.6                  
+                         ITT             C         798     829                  
+                         VIBRATION       MIL       0.4     0.9                  
+                         OIL PRESSURE    PSI        82      81                  
+                         OIL TEMP        C          78      78                  
+                         FUEL FLOW       PPH      3220    3156                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      177.5          
+                         PRESSURE ALT    FT                        164          
+                         TAT             C                        17.1          
+07845 13:00 27SEP20      N1              %        88.9    88.3                  
+                         N2              %        92.8    93.9                  
+                         ITT             C         809     840                  
+                         VIBRATION       MIL       0.4     1.1                  
+                         OIL PRESSURE    PSI        77      73                  
+                         OIL TEMP        C          92      93                  
+                         FUEL FLOW       PPH      3260    3148                  
+                         ENG OPER TIME   SEC      7227    7227                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      177.7          
+                         PRESSURE ALT    FT                        452          
+                         TAT             C                        21.4          
+07844 09:44 27SEP20      N1              %        89.5    89.5                  
+                         N2              %        92.0    93.4                  
+                         ITT             C         794     826                  
+                         VIBRATION       MIL       0.4     1.4                  
+                         OIL PRESSURE    PSI        81      80                  
+                         OIL TEMP        C          76      76                  
+                         FUEL FLOW       PPH      3368    3272                  
+                         ENG OPER TIME   SEC      7377    7377                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      193.3          
+                         PRESSURE ALT    FT                        132          
+                         TAT             C                        11.1          
+07843 06:39 27SEP20      N1              %        89.3    89.4                  
+                         N2              %        92.6    93.8                  
+                         ITT             C         802     834                  
+                         VIBRATION       MIL       0.6     1.2                  
+                         OIL PRESSURE    PSI        77      76                  
+                         OIL TEMP        C          86      86                  
+                         FUEL FLOW       PPH      3312    3332                  
+                         ENG OPER TIME   SEC      2978    2978                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      185.1          
+                         PRESSURE ALT    FT                        372          
+                         TAT             C                        16.0          
+07842 04:47 27SEP20      N1              %        88.2    88.3                  
+                         N2              %        91.5    92.8                  
+                         ITT             C         788     819                  
+                         VIBRATION       MIL       0.3     1.1                  
+                         OIL PRESSURE    PSI        88      82                  
+                         OIL TEMP        C          67      68                  
+                         FUEL FLOW       PPH      3256    3212                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      179.8          
+                         PRESSURE ALT    FT                        220          
+                         TAT             C                        12.0          
+07841 18:15 26SEP20      N1              %        89.2    89.5                  
+                         N2              %        92.8    94.2                  
+                         ITT             C         812     843                  
+                         VIBRATION       MIL       0.4     1.2                  
+                         OIL PRESSURE    PSI        82      79                  
+                         OIL TEMP        C          82      84                  
+                         FUEL FLOW       PPH      3284    3312                  
+                         ENG OPER TIME   SEC      5191    5191                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      181.2          
+                         PRESSURE ALT    FT                        136          
+                         TAT             C                        20.0          
+07840 15:57 26SEP20      N1              %        89.5    89.1                  
+                         N2              %        92.1    93.3                  
+                         ITT             C         809     834                  
+                         VIBRATION       MIL       0.4     1.2                  
+                         OIL PRESSURE    PSI        85      79                  
+                         OIL TEMP        C          78      79                  
+                         FUEL FLOW       PPH      3332    3328                  
+                         ENG OPER TIME   SEC      4782    4782                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             ON      ON                   
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      174.2          
+                         PRESSURE ALT    FT                        576          
+                         TAT             C                        12.0          
+07839 13:31 26SEP20      N1              %        91.2    89.9                  
+                         N2              %        94.3    95.1                  
+                         ITT             C         842     856                  
+                         VIBRATION       MIL       0.5     1.2                  
+                         OIL PRESSURE    PSI        82      77                  
+                         OIL TEMP        C          90      91                  
+                         FUEL FLOW       PPH      3488    3284                  
+                         ENG OPER TIME   SEC      3165    3165                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      180.0          
+                         PRESSURE ALT    FT                        224          
+                         TAT             C                        25.9          
+07838 11:44 26SEP20      N1              %        90.4    90.2                  
+                         N2              %        93.7    94.9                  
+                         ITT             C         836     861                  
+                         VIBRATION       MIL       0.3     1.2                  
+                         OIL PRESSURE    PSI        86      85                  
+                         OIL TEMP        C          73      75                  
+                         FUEL FLOW       PPH      3408    3340                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      182.5          
+                         PRESSURE ALT    FT                        248          
+                         TAT             C                        23.8          
+07837 10:55 24SEP20      N1              %        90.5    89.4                  
+                         N2              %        93.7    94.6                  
+                         ITT             C         838     852                  
+                         VIBRATION       MIL       0.2     1.1                  
+                         OIL PRESSURE    PSI        78      78                  
+                         OIL TEMP        C          89      91                  
+                         FUEL FLOW       PPH      3348    3176                  
+                         ENG OPER TIME   SEC      7419    7419                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      170.0          
+                         PRESSURE ALT    FT                        544          
+                         TAT             C                        24.9          
+07836 07:47 24SEP20      N1              %        89.9    89.7                  
+                         N2              %        92.7    94.0                  
+                         ITT             C         815     835                  
+                         VIBRATION       MIL       0.4     1.1                  
+                         OIL PRESSURE    PSI        84      81                  
+                         OIL TEMP        C          78      80                  
+                         FUEL FLOW       PPH      3312    3296                  
+                         ENG OPER TIME   SEC      7071    7071                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      179.1          
+                         PRESSURE ALT    FT                        956          
+                         TAT             C                        15.2          
+07835 05:02 24SEP20      N1              %        89.1    89.3                  
+                         N2              %        92.3    93.8                  
+                         ITT             C         803     833                  
+                         VIBRATION       MIL       0.3     1.1                  
+                         OIL PRESSURE    PSI        77      78                  
+                         OIL TEMP        C          83      82                  
+                         FUEL FLOW       PPH      3316    3276                  
+                         ENG OPER TIME   SEC      2995    2995                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      189.1          
+                         PRESSURE ALT    FT                        536          
+                         TAT             C                        15.6          
+07834 03:12 24SEP20      N1              %        86.0    85.6                  
+                         N2              %        90.5    91.8                  
+                         ITT             C         787     811                  
+                         VIBRATION       MIL       0.3     0.8                  
+                         OIL PRESSURE    PSI        88      86                  
+                         OIL TEMP        C          66      65                  
+                         FUEL FLOW       PPH      3060    3000                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             ON      ON                   
+                         WING ANTI-ICE             ON      ON                   
+                         IAS             KT                      177.1          
+                         PRESSURE ALT    FT                        488          
+                         TAT             C                         9.5          
+07833 06:11 23SEP20      N1              %        88.7    88.4                  
+                         N2              %        92.3    93.4                  
+                         ITT             C         798     824                  
+                         VIBRATION       MIL       0.3     1.1                  
+                         OIL PRESSURE    PSI        79      76                  
+                         OIL TEMP        C          84      87                  
+                         FUEL FLOW       PPH      3188    3116                  
+                         ENG OPER TIME   SEC      2630    2630                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      175.2          
+                         PRESSURE ALT    FT                        716          
+                         TAT             C                        15.7          
+07832 04:29 23SEP20      N1              %        88.6    88.2                  
+                         N2              %        91.6    92.8                  
+                         ITT             C         793     819                  
+                         VIBRATION       MIL       0.3     1.1                  
+                         OIL PRESSURE    PSI        85      82                  
+                         OIL TEMP        C          71      71                  
+                         FUEL FLOW       PPH      3240    3156                  
+                         ENG OPER TIME   SEC        10      10                  
+                         ECS PACK                  OFF     OFF                  
+                         COWL ANTI-ICE             OFF     OFF                  
+                         WING ANTI-ICE             OFF     OFF                  
+                         IAS             KT                      179.9          
+                         PRESSURE ALT    FT                        552          
+                         TAT             C                        11.9          

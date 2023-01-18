@@ -19,6 +19,8 @@ int main (int argc, char *argv[])
     char bort_id_buf[8];/* Буфер для идентификатора борта */
     field_descr_t id_bort_pos={43, 7};
     field_descr_t file_date_pos={64, 7};
+    field_descr_t cmp_word_pos={21, 4};
+    
     int num_first_datas_str=7;/* Номер первой строки данных */
     int current_str=7;
     int current_leg=0;
@@ -77,9 +79,10 @@ if (argc<2){
         current_leg++;
     }
 
-    char datebuf[10];
+    char datebuf[10], legbuf[10];
     char *file_name=full_file_name_form(argv[1],
-        get_id_data(0, &file_date_pos, i_filebufptr, datebuf), "CSV");
+        get_id_data(0, &file_date_pos, i_filebufptr, datebuf),
+        get_last_leg(1, "Legs", &cmp_word_pos, i_filebufptr, legbuf), "CSV");
 
     fd_output=fopen(file_name, "wb");
     fwrite(o_filebufptr, 1, pos_in_o_file_buf-o_filebufptr, fd_output);

@@ -12,5 +12,8 @@ char *get_leg_data(const id_data_t *id_data, const char *file_buf,
     const int str_num);
 char *get_datas(const int beginingstr_num, const int data_pos, const char *filebuf,
     char *buffer);
-char *full_file_name_form(const char *full_path, const char *ddMMMyy_date, const char *suffix);
+char *full_file_name_form(const char *full_path, const char *ddMMMyy_date,
+    const char *leg_id, const char *suffix);
+char *get_last_leg(const int str_num, const char *cmp_word,
+    const field_descr_t *cmp_word_pos, const char *filebuf, char *last_leg_buf);
 #endif
