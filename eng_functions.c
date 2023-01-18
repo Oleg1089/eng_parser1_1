@@ -155,7 +155,8 @@ char *convertdate_to_yy_mm_dd(const char *ddMMMyy, char * yy_mm_dd)
     strcpy(yy_mm_dd, substr(ddMMMyy, 5, 2));
     strcat(yy_mm_dd, "_");
     char *subbuf=substr(ddMMMyy, 2, 3);
-    while (*subbuf != *month_names[i]) {i++;}
+    while (strcmp(subbuf, month_names[i]) !=0) {i++;}
+    // while (*subbuf != *month_names[i]) {i++;}
     i++;
     if (i<10) {
         i+='0';
